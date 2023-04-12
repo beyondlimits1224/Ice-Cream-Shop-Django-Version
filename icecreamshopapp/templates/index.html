@@ -16,9 +16,15 @@
       <div class="logo">{% include "brandlogo.html" %}</div>
       {% include "navmenu.html" %} {% include "othermenu.html" %}
     </header>
-    <h1>Hello from templates!</h1>
-    {% for x in myIcecreamshop %}
-    <div class="container">{{x.name}}</div>
-    {% endfor %}
+    <main>
+      <section class="hero">{% include "hero.html" %}</section>
+      <h1>FEATURED PRODUCTS</h1>
+      <section class="products-list container-1000">
+        {% include "products.html" %}
+      </section>
+      {% for x in myIcecreamshop %}
+      <div class="container">{{x.name}}</div>
+      {% endfor %}
+    </main>
   </body>
 </html>

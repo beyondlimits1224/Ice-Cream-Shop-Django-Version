@@ -1,0 +1,8 @@
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --tertiary-color: #707070;
+  --primary-max-width: min(1920px, 100%);
+  --secondary-max-width: min(1000px, 100%);
+}

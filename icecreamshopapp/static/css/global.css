@@ -1,0 +1,34 @@
+html {
+  font-size: 16px;
+  font-family: var(--main-font-family);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.container {
+  width: var(--primary-max-width);
+}
+
+.container-1000 {
+  width: var(--secondary-max-width);
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
