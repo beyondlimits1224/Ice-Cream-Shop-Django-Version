@@ -13,18 +13,21 @@
   </head>
   <body>
     <header>
-      <div class="logo">{% include "brandlogo.html" %}</div>
-      {% include "navmenu.html" %} {% include "othermenu.html" %}
+      <div class="flex-container flex-item-center">
+        <div class="logo">{% include "brandlogo.html" %}</div>
+        {% include "navmenu.html" %} {% include "othermenu.html" %}
+      </div>
     </header>
     <main>
       <section class="hero">{% include "hero.html" %}</section>
-      <h1>FEATURED PRODUCTS</h1>
-      <section class="products-list container-1000">
+      <h1 class="text-center mt-3 mb-3">FEATURED PRODUCTS</h1>
+      <section class="products-list container-1000 m-auto mb-3">
         {% include "products.html" %}
       </section>
       {% for x in myIcecreamshop %}
       <div class="container">{{x.name}}</div>
       {% endfor %}
     </main>
+    <footer>{% include "footer.html" %}</footer>
   </body>
 </html>

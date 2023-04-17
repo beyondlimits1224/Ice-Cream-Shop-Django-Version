@@ -29,3 +29,17 @@ header .logo img {
 .products-list .item img {
   width: 316px;
 }
+
+.products-list .item h2 {
+  font-weight: 900;
+  margin: 1rem 0 0 0;
+}
+
+.products-list .item h3 {
+  margin: 0 0 1rem 0;
+}
+
+footer {
+  background-color: black;
+  color: var(--primary-color);
+}
