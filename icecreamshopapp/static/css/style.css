@@ -42,4 +42,9 @@ header .logo img {
 footer {
   background-color: black;
   color: var(--primary-color);
+  overflow: hidden;
+}
+
+footer .logo img {
+  width: 268px;
 }
